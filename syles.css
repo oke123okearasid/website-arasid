@@ -1,0 +1,135 @@
+/* Reset margin dan padding */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #2600ff;
+}
+
+/* Header Hero */
+.hero {
+    height: 400px;
+    background: linear-gradient(to right, rgba(89, 0, 255, 0.5), rgba(0, 17, 255, 0.5)), url('https://source.unsplash.com/1600x900/?restaurant') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero .overlay h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero .overlay p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.order-button {
+    background: #00e1ff;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.order-button:hover {
+    background: #00c3ff;
+}
+
+/* Section Menu */
+.menu-section {
+    padding: 40px 20px;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.menu-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4c00ff;
+}
+
+.menu-table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-table thead {
+    background-color: #4400ff;
+    color: white;
+}
+
+.menu-table th, .menu-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.menu-table img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.order-btn {
+    background: #3700ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.order-btn:hover {
+    background: #4400ff;
+}
+
+/* Galeri */
+.gallery-section {
+    padding: 40px 20px;
+    text-align: center;
+    background: #fff;
+}
+
+.gallery-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #1100ff;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
